@@ -3,4 +3,4 @@
 
 
 
-[8bit computer 1.](https://github.com/mjkkirschner/Bloggo/blob/master/8bitcomputer1.md)
+[8bit computer 1.](8bitcomputer1.md)
