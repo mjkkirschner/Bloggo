@@ -12,7 +12,7 @@ series of posts - but you may find them entertaining if you enjoy photos of elec
 After watching a few of the videos in the series, I immediately decided to order a bunch of ttl stuff from Jameco, and start building. While I waited for ups 
 to deliver my new goodies, I thought it would be fun to
 write a little Typescript simulation of a latch and clock before putting it together on a bread board.
-![](https://github.com/mjkkirschner/Bloggo/blob/master/DCVcCJoU0AEZYx6.jpg-large.jpeg)
+![](DCVcCJoU0AEZYx6.jpg-large.jpeg)
 
 
 I slowly built up the simulated and hardware versions of an 8bit computer, 
@@ -30,7 +30,7 @@ build - which I believe is based on a combination of the SAP1/2 (*simple as poss
 computer designs from the book **Digital Computer Electronics**, by[ Malvino and Brown](https://www.amazon.com/Digital-Computer-Electronics-Albert-Malvino/dp/0028005945).
 I also took some ideas from **Elements Of Computing Systems** Another [good read](https://www.amazon.com/Elements-Computing-Systems-Building-Principles/dp/0262640686).
 
-![](https://github.com/mjkkirschner/Bloggo/blob/master/DE6YsbsXsAEJxCb-1.jpg-large.jpeg)
+![](DE6YsbsXsAEJxCb-1.jpg-large.jpeg)
 
 I started building stuff on breadboards until I ran into reliablity problems. At some point, I spent a few hours debugging why I couldn't
 write to the SRAM chip in the picture above. Finally I noticed the chip had simply popped a millimeter up out of the breadboard.
@@ -39,7 +39,7 @@ At this point I decided to start soldering. It turns out this took a lot longer,
 on breadboards first to make sure the design was ready to solder up. I used some solderable breadboards from Adafruit, so transfering from
 breadboard to protoboard was pretty simple at least.
 
-![](https://github.com/mjkkirschner/Bloggo/blob/master/DHUqjO7W0AAk68b.jpg)
+![](DHUqjO7W0AAk68b.jpg)
 
 At a certain point I got a bit weary soldering up these boards, invariably finding a mistake during testing of each module,
 and needing to desolder them and fix them up.
@@ -48,7 +48,7 @@ and needing to desolder them and fix them up.
 
 I decided to move back to the simulator for a bit and let the hardware rest. 
 
-![](https://github.com/mjkkirschner/Bloggo/blob/master/DgWUqbjVAAAaVko.jpg)
+![](DgWUqbjVAAAaVko.jpg)
 
 This simulator is written in Typescript. It is capable of representing some basic gates, and logic chips. It is event based, with a simple task scheduler.
 The computer it simulates can perform additions, subtractions, and conditional jumps (*if statements*). 
@@ -56,7 +56,7 @@ The computer it simulates can perform additions, subtractions, and conditional j
 other directly, so a `bus` or large `multiplexer` part is used to represent this.
 
 Each part has a view, these views are rendered with React. Below is an example of a view which graphs any input signals.
-![](https://github.com/mjkkirschner/Bloggo/blob/master/DdngtYzX0AAbFtv.jpg)
+![](DdngtYzX0AAbFtv.jpg)
 
 #### more software:
 
