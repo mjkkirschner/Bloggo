@@ -15,8 +15,8 @@ These two lines together constitute a single instruction - but only for the arch
 
 This instruction puts whatever value is on line 2 into the A register. We'll see later how that works, and what an `A Register` is.
 
-For an example processor you might be familiar with, the AVR microcontrollers that power some of the Arduino boards also have a machine code instruction set.
-https://en.wikipedia.org/wiki/Atmel_AVR_instruction_set
+For an example processor you might be familiar with, the AVR microcontrollers that power some of the Arduino boards also have a machine code [instruction set](https://en.wikipedia.org/wiki/Atmel_AVR_instruction_set) .
+
 
 If you want to see the current instruction set for the 8chips computer you can find it [here](./instruction_set_1.md)
 
